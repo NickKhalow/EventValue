@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/EventValue Example/Scenes/Demo BalanceBall.unity
+    guid: f89b45ac40f634ccdbb4e30051401cc8
   m_configObjects: {}
