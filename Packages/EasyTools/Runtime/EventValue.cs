@@ -14,7 +14,11 @@ namespace NickKhalow.Util
         public T Value
         {
             get => _value;
-            set => _value = value;
+            set
+            {
+                _value = value;
+                ValueChanged?.Invoke(value);
+            }
         }
 
         /// <summary>
